@@ -1,0 +1,37 @@
+% start of fancypreamble.tex 
+
+\documentclass{article}
+\usepackage[left=3.75cm, right=3.75cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[section]{placeins}
+\usepackage{amsmath}
+\usepackage{bookmark}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{xstring}
+\usepackage{comment}
+\usepackage{listings}
+\usepackage{soul}
+\usepackage{makecell}
+\usepackage{fancyhdr} % For headers with link to table of contents for example
+
+\providecommand{\tabularnewline}{\\}
+
+\usepackage{wasysym}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor={rgb:red,4;green,119;blue,204}, % Light Blue
+    filecolor={rgb:red,4;green,119;blue,204}, % Light Blue
+    urlcolor={rgb:red,4;green,119;blue,204}, % Light Blue
+}
+
+\lstset{ % Setup listings
+  basicstyle=\ttfamily\footnotesize, % Set your preferences
+  frame=single, % Adds a frame around the code
+  breaklines=true, % Wrap long lines
+  numbers=left, % Line numbers on left
+  numberstyle=\tiny, % Size of the numbers
+  tabsize=2 % Size of tabs
+}
+
+% end of fancypreamble.tex
